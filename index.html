@@ -64,5 +64,5 @@
 
 </body>
 <script src="https://cdn.broadstreetads.com/init-2.min.js"></script>
-<script>broadstreet.watch({ networkId: 6987, useAltZone: true })</script>
+<script>broadstreet.watch({ networkId: 6987, useAltZone: function () { return true; }, useZoneAliases: true })</script>
 </html>
